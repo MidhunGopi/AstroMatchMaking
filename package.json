@@ -1,0 +1,41 @@
+{
+  "name": "astromatchmaking",
+  "version": "1.0.0",
+  "description": "Where the stars align for meaningful connections",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "astrology",
+    "matchmaking",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "AstroMatchMaking Team",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.25.0",
+    "howler": "^2.2.4",
+    "next": "^14.2.35",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@types/node": "^25.0.5",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.1",
+    "typescript": "^5.9.3"
+  }
+}

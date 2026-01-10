@@ -1,0 +1,14 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    // Enforce consistent code style
+    "prefer-const": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    
+    // React specific rules
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-key": "error",
+    "react/self-closing-comp": "warn"
+  }
+}
