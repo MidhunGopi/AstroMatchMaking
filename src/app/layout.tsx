@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   keywords: ["astrology", "matchmaking", "zodiac", "compatibility", "relationships"],
   authors: [{ name: "AstroMatchMaking Team" }],
   creator: "AstroMatchMaking",
-  metadataBase: new URL("https://astromatchmaking.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -84,8 +84,10 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-512x512.png", sizes: "512x512", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",

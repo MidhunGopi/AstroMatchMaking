@@ -1,12 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "extends": [
+    "next/core-web-vitals"
+  ],
   "rules": {
-    // Enforce consistent code style
     "prefer-const": "error",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
-    
-    // React specific rules
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-key": "error",
     "react/self-closing-comp": "warn"

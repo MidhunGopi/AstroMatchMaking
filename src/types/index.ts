@@ -13,10 +13,7 @@
  */
 export type Nullable<T> = { [K in keyof T]: T[K] | null };
 
-/**
- * Extract the resolved type from a Promise.
- */
-export type Awaited<T> = T extends Promise<infer U> ? U : T;
+// Note: Awaited<T> is now a built-in TypeScript type (4.5+), no need to define it here
 
 /**
  * Create a type that requires at least one of the keys.

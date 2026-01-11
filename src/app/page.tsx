@@ -70,16 +70,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get Started
-              </motion.button>
-            </Link>
-            <Link href="/match-demo">
-              <motion.button 
-                className="btn-secondary text-lg px-8 py-4 cursor-pointer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                See Demo
+                🔮 Start Matching
               </motion.button>
             </Link>
           </motion.div>

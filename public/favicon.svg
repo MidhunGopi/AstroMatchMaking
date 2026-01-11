@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <g transform="translate(256, 256)">
+    <!-- Main star shape -->
+    <path d="M0,-120 L30,-40 L110,-40 L50,10 L70,90 L0,45 L-70,90 L-50,10 L-110,-40 L-30,-40 Z" 
+          fill="url(#gradient)" 
+          stroke="none"/>
+    <!-- Small connecting stars -->
+    <circle cx="0" cy="-150" r="8" fill="#d946ef" opacity="0.8"/>
+    <circle cx="130" cy="-50" r="6" fill="#0ea5e9" opacity="0.6"/>
+    <circle cx="80" cy="120" r="7" fill="#d946ef" opacity="0.7"/>
+    <circle cx="-80" cy="120" r="6" fill="#0ea5e9" opacity="0.6"/>
+    <circle cx="-130" cy="-50" r="8" fill="#d946ef" opacity="0.8"/>
+    <!-- Connecting lines -->
+    <line x1="0" y1="-120" x2="0" y2="-150" stroke="#d946ef" stroke-width="2" opacity="0.5"/>
+    <line x1="110" y1="-40" x2="130" y2="-50" stroke="#0ea5e9" stroke-width="2" opacity="0.5"/>
+    <line x1="70" y1="90" x2="80" y2="120" stroke="#d946ef" stroke-width="2" opacity="0.5"/>
+    <line x1="-70" y1="90" x2="-80" y2="120" stroke="#0ea5e9" stroke-width="2" opacity="0.5"/>
+    <line x1="-110" y1="-40" x2="-130" y2="-50" stroke="#d946ef" stroke-width="2" opacity="0.5"/>
+  </g>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+</svg>

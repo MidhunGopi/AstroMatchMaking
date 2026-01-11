@@ -12,14 +12,8 @@ export { CosmicButton } from "./CosmicButton";
 // Decorative components
 export { FloatingZodiacIcons } from "./FloatingZodiacIcons";
 
-// Button components
-// export { Button } from "./Button";
+// Shareable components
+export { ShareableMatchCard } from "./ShareableMatchCard";
 
-// Layout components
-// export { Card } from "./Card";
-// export { Container } from "./Container";
-
-// Feedback components
-// export { Toast } from "./Toast";
-// export { Spinner } from "./Spinner";
-// export { Skeleton } from "./Skeleton";
+// Additional components will be exported here as they are created
+// Planned: Button, Card, Container, Toast, Spinner, Skeleton

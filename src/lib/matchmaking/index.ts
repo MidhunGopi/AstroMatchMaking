@@ -32,14 +32,9 @@ export {
   PLANET_SYMBOLS,
 } from "./constants";
 export {
-  SAMPLE_MATCH_RESULT,
-  SAMPLE_CHALLENGING_MATCH_RESOLVED,
-} from "./samples";
-export {
   generatePoeticExplanation,
   generateAIPrompt,
   generateOverrideExplanation,
   generateCompleteReading,
-  SAMPLE_POETIC_OUTPUTS,
 } from "./poeticGenerator";
 export type { PoeticExplanation, GeneratorOptions } from "./poeticGenerator";
